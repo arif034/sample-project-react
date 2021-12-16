@@ -2,7 +2,7 @@ import { Component } from "react";
 
 class ChildOfParent extends Component {
   render() {
-    return <div>{this.props.message}</div>;
+    return <div>Hello - {this.props.message}</div>;
   }
 }
 
