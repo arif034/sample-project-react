@@ -10,7 +10,7 @@ class ParentToChild extends Component {
   }
 
   handleClick(props) {
-    props.getValueHandler(this.state.message);
+    this.props.value(this.state.message);
   }
 
   render() {

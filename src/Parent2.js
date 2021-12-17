@@ -12,7 +12,7 @@ class Parent2 extends Component {
 
   getValueHandler(props) {
     this.setState({
-      message: props.message
+      message: props
     });
   }
 
