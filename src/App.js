@@ -6,7 +6,8 @@ import { Component } from "react";
 // import ConditionalRendering from "./ConditionalRendering.js";
 // import Array from "./Array";
 // import OrderedList from "./OrderedList"
-import ListAndKeys from "./ListAndKeys";
+// import ListAndKeys from "./ListAndKeys";
+import ListAndKeys2 from "./ListAndKeys2";
 class App extends Component {
   render() {
     return (
@@ -17,7 +18,8 @@ class App extends Component {
         {/* <ConditionalRendering /> */}
         {/* <Array /> */}
         {/* <OrderedList/> */}
-        <ListAndKeys />
+        {/* <ListAndKeys /> */}
+        <ListAndKeys2 />
       </div>
     );
   }
