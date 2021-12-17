@@ -4,6 +4,7 @@ import { Component } from "react";
 // import Child from './Child.js'
 // // import Parent2 from "./Parent2.js";
 // import ConditionalRendering from "./ConditionalRendering.js";
+import Array from "./Array";
 class App extends Component {
   render() {
     return (
@@ -12,6 +13,7 @@ class App extends Component {
         {/* <Parent /> */}
         {/* <Parent2 /> */}
         {/* <ConditionalRendering /> */}
+        <Array />
       </div>
     );
   }
