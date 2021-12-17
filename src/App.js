@@ -7,7 +7,8 @@ import { Component } from "react";
 // import Array from "./Array";
 // import OrderedList from "./OrderedList"
 // import ListAndKeys from "./ListAndKeys";
-import ListAndKeys2 from "./ListAndKeys2";
+// import ListAndKeys2 from "./ListAndKeys2";
+import FragmentsDemo from "./FragmentsDemo";
 class App extends Component {
   render() {
     return (
@@ -19,7 +20,8 @@ class App extends Component {
         {/* <Array /> */}
         {/* <OrderedList/> */}
         {/* <ListAndKeys /> */}
-        <ListAndKeys2 />
+        {/* <ListAndKeys2 /> */}
+        <FragmentsDemo />
       </div>
     );
   }
